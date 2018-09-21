@@ -1,7 +1,7 @@
 //src/TodaysDate.js
 import React from "react";
-import './TodaysDate.css';
 
-const TodaysDate = () => <div className="date">{`Today's date is ${Date()}`}</div>;
+const styles={color: 'blue'};
+const TodaysDate = () => <div style={styles} >{`Today's date is ${Date()}`}</div>;
 export default TodaysDate;
 
