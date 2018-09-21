@@ -1,6 +1,8 @@
 //src/TodaysDate.js
 import React from "react";
+import './TodaysDate.css';
+
 const TodaysDate = () => 
-  <div>{`Today's date is ${Date()}`}</div>;
+  <div className="date">{`Today's date is ${Date()}`}</div>;
 export default TodaysDate;
 
