@@ -1,5 +1,4 @@
 // .npmignore
-.babelrc
 // .gitignore
 /build
 *.log
